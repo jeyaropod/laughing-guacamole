@@ -1,0 +1,219 @@
+
+loora@LAPTOP-7HP327CR MINGW64 ~
+$ pwd
+/c/Users/loora
+
+loora@LAPTOP-7HP327CR MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+loora@LAPTOP-7HP327CR MINGW64 ~
+$ cd ..
+
+loora@LAPTOP-7HP327CR MINGW64 /c/Users
+$ pwd
+/c/Users
+
+loora@LAPTOP-7HP327CR MINGW64 /c/Users
+$ cd /c/Users
+
+loora@LAPTOP-7HP327CR MINGW64 /c/Users
+$ cd /c/Users/loora
+
+loora@LAPTOP-7HP327CR MINGW64 ~
+$ pwd
+/c/Users/loora
+
+loora@LAPTOP-7HP327CR MINGW64 ~
+$ cd loora
+bash: cd: loora: No such file or directory
+
+loora@LAPTOP-7HP327CR MINGW64 ~
+$ pwd
+/c/Users/loora
+
+loora@LAPTOP-7HP327CR MINGW64 ~
+$ mkolin github
+bash: mkolin: command not found
+
+loora@LAPTOP-7HP327CR MINGW64 ~
+$ mKolin github
+bash: mKolin: command not found
+
+loora@LAPTOP-7HP327CR MINGW64 ~
+$ mkdir github
+
+loora@LAPTOP-7HP327CR MINGW64 ~
+$ cd /c/Users/loora/github
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github
+$ pwd
+/c/Users/loora/github
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github
+$ git clone https://github.com/jeyaropod/laughing-guacamole.git
+Cloning into 'laughing-guacamole'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github
+$ ls
+laughing-guacamole/
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github
+$ cd laughing-guacamole/
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ ls
+README.md
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ cat
+cat laughing-guacamole
+cat laughing-guacamole
+
+
+cat README.md
+cat README.md
+;
+;
+\
+\
+
+
+
+[1]+  Stopped                 cat
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ cat README.md
+# laughing-guacamole
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ ^C
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ pwd
+/c/Users/loora/github/laughing-guacamole
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ ^C
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        tekst.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ cat READ.me
+cat: READ.me: No such file or directory
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ cat tekst.txt
+Quia nostrum neque illum. Et adipisci voluptas sunt ut atque porro. Sed quia est consequatur dolor corporis suscipit illum nobis. Reprehenderit est amet voluptatem numquam. Qui quae adipisci nostrum illo aspernatur. Officiis neque nulla consequuntur sapiente voluptate laborum.
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ ls
+README.md  tekst.txt
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        tekst.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git add tekst.txt
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   tekst.txt
+
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git commit -m "text"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'loora@LAPTOP-7HP327CR.(none)')
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git config --global user.email "jeyaropod@whkart.com"
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git config --global user.name "looraa"
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   tekst.txt
+
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git commit -m "text"
+[master 52e207e] text
+ 1 file changed, 1 insertion(+)
+ create mode 100644 tekst.txt
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+loora@LAPTOP-7HP327CR MINGW64 ~/github/laughing-guacamole (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 432 bytes | 432.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/jeyaropod/laughing-guacamole.git
+   1b8165d..52e207e  master -> master
+
+loora
